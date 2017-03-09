@@ -17,5 +17,4 @@ public class Student {
 		this.grade = grade;
 		this.credit= credit;
 	}
-	
 }

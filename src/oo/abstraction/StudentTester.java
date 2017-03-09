@@ -3,7 +3,7 @@ package oo.abstraction;
 public class StudentTester {
 
 	public static void main(String[] args) {
-		Student s1 = new Student("»²¤¯¤j¾Ç", "Âå¸ê¾Çµ{", 405570173, "ªLªåÊµ", "¤k", 1, 23);
+		Student s1 = new Student("è¼”ä»å¤§å­¸", "é†«è³‡å­¸ç¨‹", 405570173, "æ—èŠ¸å¦—", "å¥³", 1, 23);
 	}
 
 }
