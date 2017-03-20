@@ -6,6 +6,7 @@ public class EMR {
 	String Name;
 	char Gender;
 	int Birthday;
+	int PatientComeFrom;
 	public EMR(int ChartNumber, String IdentityCard, String Name, char Gender, int Birthday){
 		this.ChartNumber = ChartNumber;
 		this.IdentityCard = IdentityCard;
