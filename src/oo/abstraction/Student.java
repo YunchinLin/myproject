@@ -8,6 +8,7 @@ public class Student {
 	String gender;
 	int grade;
 	int credit;
+	int location;
 	public Student(String school, String major, int idnumber, String name, String gender, int grade, int credit){
 		this.school = school;
 		this.major = major;
