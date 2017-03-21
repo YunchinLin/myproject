@@ -1,6 +1,7 @@
 package oo.abstraction;
 
 public class Car {
+	int id;
 	String brand;
 	String name;
 	int cc;
