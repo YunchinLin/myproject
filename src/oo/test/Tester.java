@@ -21,6 +21,7 @@ public class Tester {
 		a.set(2, "885");
 		System.out.println(a);
 		String data = a.get(3);
+//		String data = (String)a.get(0);
 //		int n = (int)a.get(4);
 	}
 
