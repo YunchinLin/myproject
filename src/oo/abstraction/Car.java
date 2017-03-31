@@ -20,8 +20,12 @@ public class Car {
 	}
 	
 	public float addMilage(int m){
-		milage = milage + m;
-		return milage;
+		if (m>=0){
+			milage = milage + m;
+			return milage;
+		}else{
+			return milage;
+		}
 	}
 	
 	public void maintain(){
