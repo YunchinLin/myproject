@@ -1,10 +1,16 @@
 package oo.stati;
 
 public class Student {
-	int english;
+	private int english;
 	int math;
 	int chinese;
 	static int pass = 60;
+	static {
+		System.out.println("STATIC!!!");
+//		System.out.println(english); why?
+		System.out.println(pass);;
+	}
+	
 	public Student(){
 		
 	}
@@ -37,6 +43,11 @@ public class Student {
 		System.out.println(getScore(english)+"\t"
 	        +getScore(math)+"\t"+getScore(chinese));
 	}
+	
+	public static void test(){
+		
+	}
+	
 	private String getScore(int score){
 		if (score < pass){
 			return String.valueOf(score+"*");
