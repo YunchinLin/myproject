@@ -48,7 +48,7 @@ class Student {//省略public
 		
 	}
 	
-	private String getScore(int score){
+	protected String getScore(int score){
 		if (score < pass){
 			return String.valueOf(score+"*");
 		}else{
