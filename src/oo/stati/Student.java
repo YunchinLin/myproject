@@ -1,7 +1,7 @@
 package oo.stati;
 
-public class Student {
-	private int english;
+class Student {//省略public
+	int english;
 	int math;
 	int chinese;
 	static int pass = 60;
@@ -11,7 +11,7 @@ public class Student {
 		System.out.println(pass);;
 	}
 	
-	public Student(){
+	Student(){//省略public
 		
 	}
 //	public Student(int english, int math, int chinese){

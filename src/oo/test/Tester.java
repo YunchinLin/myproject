@@ -3,6 +3,7 @@ package oo.test;
 import java.util.ArrayList;
 
 import oo.abstraction.*;
+//import oo.stati.Student;
 
 public class Tester {
 
@@ -23,6 +24,7 @@ public class Tester {
 		String data = a.get(3);
 //		String data = (String)a.get(0);
 //		int n = (int)a.get(4);
+//		Student stu = new Student();測試用
 	}
 
 }
