@@ -5,6 +5,9 @@ import java.util.ArrayList;
 public class Tester {
 
 	public static void main(String[] args) {
+		Student student = new Student();
+		System.out.println(student);
+		
 		System.out.println(Student.pass);
 //		Student stu = new Student();測試用
 		Student stu1 = new Student(58, 98, 66);

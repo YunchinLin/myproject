@@ -11,7 +11,7 @@ class Student {//省略public
 		System.out.println(pass);;
 	}
 	
-	Student(){//省略public
+	public Student(){//可以省略public
 		
 	}
 //	public Student(int english, int math, int chinese){
@@ -54,5 +54,13 @@ class Student {//省略public
 		}else{
 			return String.valueOf(score);
 		}
+	}
+	
+	@Override//複寫
+	public String toString(){
+		return
+				"english:"+english+"\n"+
+				"math:"+math+"\n"+
+				"chinese:"+chinese;
 	}
 }

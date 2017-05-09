@@ -5,7 +5,7 @@ import java.util.ArrayList;
 import oo.abstraction.*;
 //import oo.stati.Student;
 
-public class Tester {
+public class Tester {//繼承了java.lang.Object
 
 	public static void main(String[] args) {
 		Car c = new Car("XX", "AA", 2000);
