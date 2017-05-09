@@ -9,6 +9,10 @@ public class Car {
 	int status;//狀態
 	float milage;//里程數
 	
+	public Car(){
+		
+	}
+	
 	public Car(String brand, String name, int cc){
 //		super();
 		this.brand = brand;
