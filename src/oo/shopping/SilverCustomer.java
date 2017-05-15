@@ -1,6 +1,9 @@
 package oo.shopping;
 
+import java.util.Scanner;
+
 public class SilverCustomer extends Customer {
+	int amount;
 	String level = "銀級";
 	public SilverCustomer(){
 		
@@ -12,7 +15,11 @@ public class SilverCustomer extends Customer {
 	
 	@Override
 	public void print(){
-		System.out.println("客戶級別:"+level+"\t"+"消費金額:"+amount+"\t"+
-	                       "折扣後金額:"+(int)(amount*0.9));
+		System.out.print("客戶級別:"+level+"\t");
+		Scanner scanner = new Scanner(System.in);
+		System.out.print("消費金額:");
+		String price = scanner.nextLine();
+		int p = Integer.parseInt(price);
+		System.out.println("折扣後金額:"+(int)(p*0.9));
 	}
 }
