@@ -3,7 +3,6 @@ package oo.shopping;
 import java.util.Scanner;
 
 public class SilverCustomer extends Customer {
-	int amount;
 	String level = "銀級";
 	public SilverCustomer(){
 		
