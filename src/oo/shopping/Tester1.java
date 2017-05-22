@@ -10,7 +10,7 @@ public class Tester1 {
 		SilverCustomer sil = new SilverCustomer();
 		GoldenCustomer gol = new GoldenCustomer();
 //		cus.amount = 6000;
-		cus.print1();
+		cus.printWay();
 //		sil.amount = 8000;
 		sil.print1();
 //		sil.amount = 10000;
