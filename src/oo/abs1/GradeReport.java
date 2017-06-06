@@ -1,5 +1,5 @@
 package oo.abs1;
 
-public class GradeReport {
+public class GradeReport extends Report{
 
 }
